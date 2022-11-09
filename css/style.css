@@ -1,0 +1,464 @@
+
+
+body{
+
+background-color: black;
+
+}
+.logop{
+
+    width: 100%; 
+    height: 500px;
+
+}
+
+#navega{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.navs{ /*letras del nav*/
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+ul{
+    display: contents;
+
+}
+
+
+
+#padre{
+    
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    height:370px;
+    animation-name: menus;
+    animation-duration: 2s;/*animacion por tiempo en segundos*/
+    animation-iteration-count: infinite;/*animacion infinita al bloque o elemento*/
+}
+
+@keyframes menus {
+}
+
+
+#hijo1{
+    height: 370px;
+    width: 200px;
+    border-radius: 20px;
+    animation-name: testsushi;/*nombre de la animacion  @keyframes es su conector*/
+ 
+ 
+}
+
+#hijo1:hover{
+    transform: scale(1.2,1.2);
+    object-fit: cover;
+   
+
+}
+
+@keyframes testsushi{
+   /* from{opacity: 0;}/*para hacerlo translucido y aparecerlo
+    to{opacity: 1;}  */
+ 
+
+
+}
+
+#hijo2{
+    height: 370px;
+    width: 200px;
+    border-radius: 20px;
+    animation-name: testsushi;
+ 
+}
+
+#hijo2:hover{
+    transform: scale(1.2,1.2);
+    object-fit: cover;
+
+}
+
+
+#hijo3{
+    height: 370px;
+    width: 200px;
+    border-radius: 30px;
+}
+#hijo3:hover{
+    transform: scale(1.2,1.2);
+    object-fit: cover;
+
+    }
+
+
+
+#hijo4{
+    height: 370px;
+    width: 270px;
+    border-radius: 40px;
+}
+
+#hijo4:hover{   transform: scale(1.2,1.2);
+    object-fit: cover;
+}
+
+
+
+.content h2{color: darkgoldenrod;
+    margin-top: 200px;
+    font-size: 70px;
+    position: absolute;
+    top:1000px; 
+}
+
+.content p{ color: darkgoldenrod;;
+            margin-top: 350px;
+            margin-bottom: 200px;;
+            font-size: 35px;
+            width: 60%;
+
+    }
+        
+    .content hr{  width: 20px;
+        height: 6px;
+        background: rgb(244, 164, 5);
+        position: absolute;
+        margin-bottom: 10px;
+      
+    }
+    
+    .content2 h2{color: darkgoldenrod;
+        margin-top: 200px;
+        font-size: 70px;
+        position: absolute;
+        top:1400px; 
+    }
+    
+    .content2 p{ color: darkgoldenrod;;
+                margin-top: 350px;
+                margin-bottom: 200px;;
+                font-size: 35px;
+                width: 60%;
+    
+        }
+            
+        .content2 hr{  width: 20px;
+            height: 6px;
+            background: rgb(244, 164, 5);
+            position: absolute;
+            margin-bottom: 10px;
+          
+        }
+
+        .content3 h2{color: darkgoldenrod;
+            margin-top: 200px;
+            font-size: 70px;
+            position: absolute;
+            top:1800px; 
+        }
+        
+        .content3 p{ color: darkgoldenrod;;
+                    margin-top: 350px;
+                    margin-bottom: 200px;;
+                    font-size: 35px;
+                    width: 60%;
+        
+            }
+                
+            .content3 hr{  width: 20px;
+                height: 6px;
+                background: rgb(244, 164, 5);
+                position: absolute;
+                margin-bottom: 10px;
+              
+            }
+
+
+
+.imgr{
+    height: 370px;
+    width: 200px;
+    display: flex;
+    justify-content: end;
+}
+
+#imgsu{
+
+    height: 370px;
+    width: 400px;
+    display: flex;
+    justify-content: end;
+}
+
+   .packs{
+    display: flex;
+    height: 370px;
+    width: 300px;
+    border-radius: 40px;
+    position: absolute;
+   
+    right: 170px;
+    bottom: 350px;
+    }
+
+footer{  display: flex;
+justify-content: space-evenly;
+background: #ddd;
+}
+
+
+
+
+
+#paque:hover{transform: scale(1.2,1.2);
+    object-fit: cover;}
+
+
+
+
+
+
+
+
+
+
+
+#hijo1r{
+
+height: 50px;
+width: 50px;
+
+}
+
+#hijo2r{height: 50px;
+    width: 50px;
+    }
+
+#hijo3r{height: 50px;
+    width: 50px;
+    }
+#hijo4r{height: 50px;
+    width: 50px;
+    }
+#hijo5r{height: 50px;
+    width: 50px;
+    }
+
+hr{ 
+   
+    width: 20px;
+    height: 6px;
+    background: darkgoldenrod;
+    position: absolute;
+
+}
+
+
+    /*-----------------------------efectos visuales y el boton de push me!--------------------------------------------*/
+
+
+    nav ul {
+        -webkit-font-smoothing:antialiased;
+        text-shadow:0 1px 0 #FFF;
+        background: #ddd;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav li {
+        float: left;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        min-width: 25%;
+    }
+    nav a {
+        background: #ddd;
+        color: #444;
+        display: block;
+        font: bold 16px/50px sans-serif;
+        padding: 0 25px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-transition: all .25s ease;
+           -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+             -o-transition: all .25s ease;
+                transition: all .25s ease;
+
+              
+                
+    }
+    nav .dropdown:after {
+        content: ' ▶';
+    }
+    nav .dropdown:hover:after{
+        content:'\25bc'
+    }
+    nav li:hover a {
+        background: #ccc;;
+    }
+    nav li ul {
+        float: left;
+        left: 0;s
+        opacity:0;
+        position: absolute;
+        top: 35px;
+        visibility: hidden;
+        z-index: 1;
+        -webkit-transition: all .25s ease;
+           -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+             -o-transition: all .25s ease;
+                transition: all .25s ease;
+    }
+    nav li:hover ul {
+        opacity: 1;
+        top: 50px;
+        visibility: visible;
+    }
+    nav li ul li {
+        float: none;
+        width: 100%;
+    }
+    nav li ul a:hover {
+        background:#bbb;
+    }
+    
+    /* Clearfix */
+    
+    .cf:after, .cf:before {
+        content:"";
+        display:table;
+    }
+    .cf:after {
+        clear:both;
+    }
+    .cf {
+        zoom:1;
+    }​
+
+    #largeMapLink{ color: darkgoldenrod;
+                    text-decoration: none;}
+
+   /*-----------------------------efectos visuales y el boton de push me!--------------------------------------------*/
+
+
+
+   #grilpadre{
+
+    display: grid;
+    grid-template-rows: 400px 400px 400px ;
+    grid-template-columns: 50%  50%;
+    grid-template-areas:"a1,a2,"
+                        "a3,a4,"
+                        "a5,a6";    
+   margin-top: 150px;          
+   }
+
+   #boton{ font-style:normal;
+    color: rgb(7, 11, 15);
+    background-color: #b8860b;
+   
+    }
+
+
+   .gril1{/* titulo hamburgesa */
+    color: darkgoldenrod;
+    font-size:large;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;}
+   
+   .gril2{   /*foto haburgesa*/
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+
+
+   }
+
+   .gril3{/* titulo sushi */
+           
+   
+    color: darkgoldenrod;
+    font-size:large;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    }
+
+
+   .gril4{  /*foto sushi  */
+
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+  
+    display: flex;
+  
+
+   }
+
+   .gril5{/* titulo costillas */
+    color: darkgoldenrod;
+    font-size: large;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;}
+
+   .gril6{ /* foto costilla */
+   
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: aliceblue;
+   }
+
+   #ids{margin-left: 150px;}
+
+   .titulo{margin-left: 150px;}
+
+
+   aside{background-color: aqua;
+        display: flex;
+        justify-items: end;
+
+}
+
+#reg{color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 25px;
+                    }
+
+#legend{color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 40px;}
+
+#legendpedido{color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 40px;}
+
+    .labels{color: darkgoldenrod}
+
+
+    .imbur{
+        
+        display: flex;
+      justify-items: center;
+      height: 300px;
+}
